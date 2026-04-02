@@ -6,7 +6,7 @@
 </script>
 
 <main>
-  <article>
+  <article class="card">
     <figure>
       <img src={image} {alt} />
       <figcaption>
