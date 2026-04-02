@@ -1,11 +1,18 @@
 <script>
-  let { image, alt, title, description } = $props();
+  export let image;
+  export let alt;
+  export let title;
+  export let description;
 </script>
 
 <main>
-  <section class="card">
-    <img src={image} {alt} />
-    <h1>{title}</h1>
-    <p>{description}</p>
-  </section>
+  <article>
+    <figure>
+      <img src={image} {alt} />
+      <figcaption>
+        <h1>{title}</h1>
+        <p>{description}</p>
+      </figcaption>
+    </figure>
+  </article>
 </main>
