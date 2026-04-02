@@ -125,8 +125,6 @@
 
 @layer base {
   body {
-    min-height: 100vh;
-    min-height: 100svh;
     font-family: "Outfit", sans-serif;
     font-size: var(--fs-sm);
     line-height: var(--lh-normal);
@@ -137,6 +135,9 @@
 
 @layer layout {
   main {
+    min-height: 100vh;
+    min-height: 100svh;
+    
     display: flex;
     align-items: center;
     justify-content: center;
